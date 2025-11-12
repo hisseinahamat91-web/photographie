@@ -61,6 +61,10 @@ a {
     align-items: center;
 }
 
+.texte-align{
+    text-align: center;
+}
+
 /* classe de dimention */
 .w-100 {
     width: 100%;
@@ -79,6 +83,11 @@ a {
 .w-25 {
     width: 25%;
 }
+
+.w-20{
+    width: 20%;
+}
+
 
 .logo {
     width: 100px;
@@ -143,5 +152,28 @@ header {
 
 
 
+
+/* Frame 21 */
+
+.foot{
+
+
+background: #655649;
+
+}
+
+
+.avis{
+    background-color: #f2eae4;
+}
+
+.hero{
+ 
+ background-image: none;
+ 
+}
+.savoir{
+    background-color: #F2EAE4;
+}
 
 
