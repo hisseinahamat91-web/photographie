@@ -10,9 +10,6 @@ a {
 
 }
 
-{
-    font-size: 35px;
-}
 
 .btn {
     background-color: gray;
@@ -99,9 +96,11 @@ header ul {
 
 /* header*/
 header {
-    padding: 20px 64px;
-    background-color: rgb(245, 240, 240);
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.256);
+    position: fixed;
+    top: 0;
+    left: à;
+    width: 100%;
+
 }
 
 /*section hero*/
@@ -119,10 +118,7 @@ header {
 
 }
 
-{
-    margin-bottom: 20px;
-    font-size: 45px;
-}
+
 
 .section-hero div p {
     margin-bottom: 50px;
@@ -131,16 +127,16 @@ header {
 
 .card {
     box-shadow: 5px 5px 10px rgba(33, 32, 32, 0.194);
-    border-radius: 20px;
-
+    
+background-color: white;
 }
 
 .card h3 {
     margin-bottom: 20px;
 }
 
-.card p {
-    margin-bottom: 20px;
+.margin-bottom {
+    margin-bottom: 51px;
 }
 
 .margintop-100 {
@@ -150,8 +146,12 @@ header {
     border-radius: 20px;
 }
 
-
-
+.zeno{
+    margin-top: ;
+}
+.padding{
+   padding:  1em;
+}
 
 /* Frame 21 */
 
@@ -167,13 +167,37 @@ background: #655649;
     background-color: #f2eae4;
 }
 
-.hero{
- 
- background-image: none;
- 
-}
+
 .savoir{
     background-color: #F2EAE4;
 }
+
+
+.mage{
+    background-image: url(asset/baniere.png);
+height: 100vh;
+background-repeat: no-repeat;
+   padding: auto;
+    
+}
+
+.gap{
+
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+.justify-center{
+
+justify-content: center;
+}
+
+
 
 
