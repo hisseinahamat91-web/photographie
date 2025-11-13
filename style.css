@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kalnia:wght@100..700&display=swap');
 /* reset: permet d'effacer le style par defaut imposé par le navigateur*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,8 +12,19 @@ a {
     text-decoration: none;
 
 }
+p,h3{
+     font-family: "Inter", sans-serif;
+}
+h2{ font-family: "Inter", sans-serif;
+    
+}
 
-
+.w-30{
+    width: 30%;
+}
+.pad{
+    padding: 64px;
+}
 .btn {
     background-color: gray;
     border-radius: 5px;
@@ -98,10 +112,16 @@ header ul {
 header {
     position: fixed;
     top: 0;
-    left: à;
+    left: 0;
     width: 100%;
-
+    padding: 16px 64px;
+    transition: all .6s ease;
 }
+
+.photo{
+    padding: 10px;
+}
+
 
 /*section hero*/
 .section-hero {
@@ -119,11 +139,11 @@ header {
 }
 
 
-
-.section-hero div p {
-    margin-bottom: 50px;
-    font-size: 25px;
+.mpmt{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .card {
     box-shadow: 5px 5px 10px rgba(33, 32, 32, 0.194);
@@ -146,30 +166,39 @@ background-color: white;
     border-radius: 20px;
 }
 
-.zeno{
-    margin-top: ;
-}
+
+
 .padding{
    padding:  1em;
+}
+
+.padding-50{
+   padding:  50px;
 }
 
 /* Frame 21 */
 
 .foot{
 
-
-background: #655649;
+background-color: #655649;
 
 }
-
-
+footer {
+    color:white
+}
+header a {
+    color: white;
+}
 .avis{
     background-color: #f2eae4;
 }
 
-
+.bl{
+    color: white;
+}
 .savoir{
     background-color: #F2EAE4;
+    
 }
 
 
@@ -181,15 +210,25 @@ background-repeat: no-repeat;
     
 }
 
-.gap{
+.gap-24{
 
-    gap: 10px;
+    gap: 24px;
+}
+
+.dex{
+    height: 30px;
 }
 
 
 
+.fex{
+    background-color: #F2EAE4;
+}
 
-
+.finis{
+    display: block;
+    
+}
 
 
 
@@ -200,4 +239,10 @@ justify-content: center;
 
 
 
+.textwhite{
+    text-decoration-color: white;
+}
 
+.bg-marron{
+    background-color: #655649;
+}
